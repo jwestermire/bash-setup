@@ -4,12 +4,7 @@ PS1='$PREFIX \u\$ '
 
 # environment vars
 export DEVHOME=~/Documents/dev
-export SSQAHOME="$DEVHOME/shared_services/qa-automation"
-export MOBILE="$DEVHOME/mobile"
-export CORVETTE="$DEVHOME/corvette"
-export SHARED_SERVICES="$DEVHOME/shared_services"
-export GRAPHQL="$MOBILE/idp-graphql"
-export GRAPHQL_QAHOME="$GRAPHQL/app/src/test/resources"
+export DEVHOMEPERS=~/Documents/dev
 
 # source my alias
 . ~/.bash_aliases

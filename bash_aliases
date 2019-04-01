@@ -11,23 +11,8 @@ alias add='git add -A'
 alias pull='git pull'
 
 # navigation
-alias home='cd $DEVHOME'
-## D2C
-alias mobile='cd $MOBILE'
-alias ql='cd $GRAPHQL'
-alias qlqa='cd $GRAPHQL_QAHOME'
-alias corvette='cd $CORVETTE'
-## Shared Services
-alias sharedservices='cd $SHARED_SERVICES'
-alias ssqa='cd $SHARED_SERVICES/qa-automation/Platform/cuke'
-
-# graphql stuffs
-alias matrix='open $MOBILE/corvette-spring-clients/product-content-feature/src/main/resources/graphQL\ Matrices\ Rev.xlsx'
-alias ccpub-local='mobile; cd corvette-spring-clients; gradle clean build publishToMavenLocal --refresh-dependencies'
-alias ccpub-localforce='mobile; cd corvette-spring-clients; gradle publishToMavenLocal --refresh-dependencies'
-alias ccpub-final='mobile; cd corvette-spring-clients; gradle artifactoryPublish --refresh-dependencies'
-alias ccclean='mobile; cd corvette-spring-clients; gradle clean'
-alias ccbuild='mobile; cd corvette-spring-clients; gradle build --refresh-dependencies'
+alias work='cd $DEVHOME'
+alias pers='cd $DEVHOMEPERS'
 
 # fun stuff
 alias rt='reset'
@@ -38,6 +23,3 @@ alias hist='history'
 alias cd2='cd ../../'
 alias cd3='cd ../../../'
 alias cd4='cd ../../../../'
-
-# the fuck
-eval $(thefuck --alias fuck)
